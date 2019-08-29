@@ -6,4 +6,7 @@ Movie recommendation system is created based on IMDB dataset with the following 
 3. Content Based Filtering based on movie overview, cast, crew, keywords and genres
 4. Collaborative Filtering (CF) using **Singular Value Decomposition** of individual user rating on different movies
 
+In content based filtering, **cosine similarity** among movies are obtained based on these contents.
 CF was done using the **Surprise** package on small_rating dataset. It is the most preferred method for a movie or any other recommendation which is not dependent on one or two single factors. Small RMSE (root mean square error) or MAE (mean absolute error) defines good recommendation. 
+
+Dataset: https://grouplens.org/datasets/movielens/100k/
